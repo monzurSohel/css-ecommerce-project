@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is an ecommerce project">
+    <title>Ecommerce Project</title>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar starts here -->
+
+    <i class="fa-solid fa-bars fa-2x" id="menu-icon"></i>
+    <nav id="menu" class="hidden">
+        <ul class="nav_upper flex-space-around">
+            <li class="nav_list">
+                <a href="index.html" class="nav_link"> Home</a>
+            </li>
+            <li class="nav_list">
+                <a href="register.html" class="nav_link"> Register</a>
+            </li>
+            <li class="nav_list">
+                <a href="login.html" class="nav_link"> Login</a>
+            </li>
+            <li class="nav_list">
+                <a href="index.html" class="nav_link"> Logout</a>
+            </li>
+            <li class="nav_list">
+                <a href="contact.html" class="nav_link"> Contact</a>
+            </li>
+            <li class="nav_list">
+                <a href="profile.html" class="nav_link"> 
+                    <img class="profile-icon" src="images/profile_2.jpg" alt="profile-icon">
+                </a>
+            </li>
+        </ul>
+        <ul class="nav_lower flex-space-around">
+            <li class="nav_list">
+                <a href="/index.html" class="nav_brand nav_link">SF Express</a>
+            </li>
+            <li class="nav_list">
+                <a href="/cart.html" class="nav_link">
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                    Cart 2 Product - $135.20
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Navbar ends here -->
+
+    <main>
+        <section class="profile flex-center">
+            <h2 class="section_title text_center"> User Profile </h2>
+            <div class="card flex-center">
+                <img src="/images/profile_2.jpg" alt="profile 2" class="profile_img">
+                <h2 class="profile_name">Md Monzur Hossain</h2>
+                <p class="profile_email">sohel699@yahoo.com</p>
+                <p class="profile_about"> I love my Country </p>
+                <ddiv class="profile_buttons">
+                    <button class="btn profile_edit-btn">
+                        <i class="far fa-edit fa-2x"></i>
+                    </button>
+                    <button class="btn profile_delete-btn">
+                        <i class="far fa-trash-alt fa-2x"></i>
+                    </button>
+                </ddiv>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer starts here -->
+    <footer class="footer_section flex-space-around">
+        <div>
+            <label for="subscribe">Subscribe to Newsletter : </label>
+            <input type="email" id="subscribe" name="subscribe" class="footer_input" placeholder="Your Email Address">
+            <button class="btn btn-subscribe">Subscribe</button>
+        </div>
+        <div>
+            <p>&copy; Copyright 2023 SF Express.All rights reserved</p>
+        </div>
+    </footer>
+    <!-- Footer ends here -->
+    
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
